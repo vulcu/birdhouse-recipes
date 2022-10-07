@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:md": "markdownlint **/*.md --ignore node_modules",
-    "lint": "npm run lint:md"
+    "lint": "npm run lint:md",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/vulcu/birdhouse-recipes#readme",
   "devDependencies": {
+    "husky": "^8.0.1",
     "markdownlint-cli": "^0.32.2"
   }
 }
