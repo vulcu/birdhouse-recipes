@@ -1,0 +1,21 @@
+{
+  "name": "birdhouse-recipes",
+  "version": "1.0.0",
+  "description": "Food and drink for birds and furies.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulcu/birdhouse-recipes.git"
+  },
+  "contributors": [
+    {"name":"Winry Litwa-Vulcu","url":"https://github.com/vulcu"},
+    {"name":"Emma Litwa-Vulcu","url":"https://github.com/reiniiriarios"}
+  ],
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/vulcu/birdhouse-recipes/issues"
+  },
+  "homepage": "https://github.com/vulcu/birdhouse-recipes#readme"
+}
