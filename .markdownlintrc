@@ -1,0 +1,20 @@
+{
+  "default": true,
+  "code-block-style": "fenced",
+  "code-fence-style": "backtick",
+  "emphasis-style": "underscore",
+  "strong-style": "asterisk",
+  "heading-style": { "style": "atx_closed" },
+  "heading-increment": true,
+  "line-length": {
+    "line_length": 100,
+    "tables": false
+  },
+  "no-hard-tabs": true,
+  "no-reversed-links": true,
+  "ol-prefix": { "style": "one_or_ordered" },
+  "ul-indent": { "indent": 2 },
+  "ul-style": { "style": "consistent" },
+  "whitespace": false,
+  "single-trailing-newline": true
+}
