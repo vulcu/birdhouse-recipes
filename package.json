@@ -1,0 +1,34 @@
+{
+  "name": "birdhouse-recipes",
+  "version": "1.0.0",
+  "description": "Food and drink for birds and furies.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "markdownlint **/*.md --ignore node_modules",
+    "lint": "npm run lint:md",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulcu/birdhouse-recipes.git"
+  },
+  "contributors": [
+    {
+      "name": "Winry Litwa-Vulcu",
+      "url": "https://github.com/vulcu"
+    },
+    {
+      "name": "Emma Litwa-Vulcu",
+      "url": "https://github.com/reiniiriarios"
+    }
+  ],
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/vulcu/birdhouse-recipes/issues"
+  },
+  "homepage": "https://github.com/vulcu/birdhouse-recipes#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "markdownlint-cli": "^0.32.2"
+  }
+}
