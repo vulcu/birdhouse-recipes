@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/vulcu/birdhouse-recipes#readme",
   "devDependencies": {
-    "husky": "^8.0.1",
+    "husky": "^8.0.2",
     "markdownlint-cli": "^0.32.2"
   }
 }
