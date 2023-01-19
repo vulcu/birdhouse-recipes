@@ -7,8 +7,12 @@
         "id": "14c1400030f52860",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "recipe-template.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "recipe-template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "recipe-template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "recipe-template.md"
+              }
             }
           }
         ]
@@ -120,6 +128,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "14c1400030f52860",
+  "active": "d1c2f16d6d86371b",
   "lastOpenFiles": []
 }
