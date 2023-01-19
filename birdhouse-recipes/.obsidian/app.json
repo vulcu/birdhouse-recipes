@@ -1,6 +1,11 @@
 {
   "userIgnoreFilters": [
-    "node_modules/"
+    "node_modules/",
+    "img/"
   ],
-  "promptDelete": false
+  "promptDelete": true,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./img",
+  "showLineNumber": true,
+  "newFileLocation": "current"
 }
