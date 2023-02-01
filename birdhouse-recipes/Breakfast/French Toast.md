@@ -12,7 +12,6 @@ Cook: 20m
 |    1/3 cup |                         Milk |
 | 4-6 slices |                        Bread |
 
-
 # Steps #
 1. 1.  Beat egg, vanilla and cinnamon in shallow dish. Stir in milk.  
 2.  Dip bread in egg mixture, turning to coat both sides evenly.  

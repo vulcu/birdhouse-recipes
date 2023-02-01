@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Breakfast/Pancakes.md",
+                "file": "Breakfast/Belgian Waffles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Breakfast/Pancakes.md",
+                "file": "Breakfast/Belgian Waffles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Breakfast/Pancakes.md",
+                "file": "Breakfast/Belgian Waffles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Breakfast/Pancakes.md"
+                "file": "Breakfast/Belgian Waffles.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "14c1400030f52860",
   "lastOpenFiles": [
-    "Templates/recipe-template.md",
+    "img/example-image-name.jpg.md",
     "Breakfast/Belgian Waffles.md",
-    "Breakfast/Pancakes.md",
     "Breakfast/French Toast.md",
     "Breakfast/Buttermilk Pancakes.md",
+    "Dinner/Chile.md",
+    "Breakfast/Pancakes.md",
     "Breakfast/Buttermilk Waffles.md",
-    "img/example-image-name.jpg.md",
+    "Templates/recipe-template.md",
     "Untitled.canvas"
   ]
 }
