@@ -14,12 +14,37 @@
               "type": "markdown",
               "state": {
                 "file": "Breakfast/Belgian Waffles.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d10a1f29389ea1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Breakfast/Yeasted Waffles.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "65db9cd207f5fb98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Breakfast/Yeasted Waffles.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 256.5
   },
   "right": {
     "id": "779e75d563df80b7",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Breakfast/Belgian Waffles.md",
+                "file": "Breakfast/Yeasted Waffles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Breakfast/Belgian Waffles.md",
+                "file": "Breakfast/Yeasted Waffles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Breakfast/Belgian Waffles.md"
+                "file": "Breakfast/Yeasted Waffles.md"
               }
             }
           }
@@ -146,16 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14c1400030f52860",
+  "active": "65db9cd207f5fb98",
   "lastOpenFiles": [
-    "img/example-image-name.jpg.md",
+    "Breakfast/Yeasted Waffles (Belgian-Style).md",
+    "Breakfast/Yeasted Waffles.md",
+    "Breakfast/img/yeasted_belgian_waffles_715x485.jpg",
     "Breakfast/Belgian Waffles.md",
-    "Breakfast/French Toast.md",
-    "Breakfast/Buttermilk Pancakes.md",
-    "Dinner/Chile.md",
     "Breakfast/Pancakes.md",
+    "Breakfast/Buttermilk Pancakes.md",
     "Breakfast/Buttermilk Waffles.md",
+    "Breakfast/img/yeasted_waffles_650x435.jpg",
     "Templates/recipe-template.md",
+    "img/example-image-name.jpg.md",
+    "Breakfast/French Toast.md",
+    "Dinner/Chile.md",
     "Untitled.canvas"
   ]
 }
