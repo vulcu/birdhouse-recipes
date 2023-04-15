@@ -1,21 +1,21 @@
-# Birdhouse Recipe Collection #
+# Birdhouse Recipe Collection
 
 Food and drink for birds and furies.
 
-## Local Development ##
+## Local Development
 
 This project has been built and tested with with Node.js v18.4.0.
 
 > Recommended: Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 > and use to install the appropriate Node.js version.
 
-### Install Dependencies ###
+### Install Dependencies
 
 ```sh
 npm ci
 ```
 
-### Linting ###
+### Linting
 
 Husky will run linting pre-commit, but you can manually lint by running:
 
