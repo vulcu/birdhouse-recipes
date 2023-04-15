@@ -1,5 +1,7 @@
 ---
 title: Tequiliano
+tags:
+  - cocktails
 ---
 
 # Tequiliano

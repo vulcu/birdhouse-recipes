@@ -1,5 +1,7 @@
 ---
 title: Corpse Reviver No. 2
+tags:
+  - cocktails
 ---
 
 # Corpse Reviver No. 2

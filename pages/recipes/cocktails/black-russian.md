@@ -1,5 +1,7 @@
 ---
 title: Black Russian
+tags:
+  - cocktails
 ---
 
 # Black Russian

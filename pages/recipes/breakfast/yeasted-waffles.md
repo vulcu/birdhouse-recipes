@@ -1,5 +1,7 @@
 ---
 title: Yeasted Waffles
+tags:
+  - breakfast
 ---
 
 # Yeasted Waffles

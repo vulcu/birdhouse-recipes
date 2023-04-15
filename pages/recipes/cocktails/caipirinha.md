@@ -1,5 +1,7 @@
 ---
 title: Caipirinha
+tags:
+  - cocktails
 ---
 
 # Caipirinha

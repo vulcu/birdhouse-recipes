@@ -1,5 +1,7 @@
 ---
 title: Chile
+tags:
+  - dinner
 ---
 
 # Chile

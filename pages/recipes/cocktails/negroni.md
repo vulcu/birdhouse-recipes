@@ -1,5 +1,7 @@
 ---
 title: Negroni
+tags:
+  - cocktails
 ---
 
 # Negroni

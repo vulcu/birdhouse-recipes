@@ -1,5 +1,7 @@
 ---
 title: Fried Okra
+tags:
+  - dinner
 ---
 
 # Fried Okra

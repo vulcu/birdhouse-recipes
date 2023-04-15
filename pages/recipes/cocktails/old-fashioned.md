@@ -1,5 +1,7 @@
 ---
 title: Old Fashioned
+tags:
+  - cocktails
 ---
 
 # Old Fashioned

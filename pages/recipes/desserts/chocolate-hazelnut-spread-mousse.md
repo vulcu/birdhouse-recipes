@@ -1,5 +1,7 @@
 ---
 title: Chocolate Hazelnut Spread Mousse
+tags:
+  - desserts
 ---
 
 # Chocolate Hazelnut Spread Mousse

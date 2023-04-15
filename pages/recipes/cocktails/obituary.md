@@ -1,5 +1,7 @@
 ---
 title: Obituary
+tags:
+  - cocktails
 ---
 
 # Obituary

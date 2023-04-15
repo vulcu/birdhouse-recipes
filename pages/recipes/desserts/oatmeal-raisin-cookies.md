@@ -1,5 +1,7 @@
 ---
 title: Oatmeal Raisin Cookies
+tags:
+  - desserts
 ---
 
 # Oatmeal Raisin Cookies

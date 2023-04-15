@@ -7,3 +7,37 @@ layout: default
 <h1>Birdhouse Recipes</h1>
 
 <p>Food and drink for birds and furies.</p>
+
+<h2>Recipes</h2>
+
+<h3>Breakfast</h3>
+
+<ul>
+  {%- for recipe in collections.breakfast -%}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {%- endfor -%}
+</ul>
+
+<h3>Dinner</h3>
+
+<ul>
+  {%- for recipe in collections.dinner -%}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {%- endfor -%}
+</ul>
+
+<h3>Desserts</h3>
+
+<ul>
+  {%- for recipe in collections.desserts -%}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {%- endfor -%}
+</ul>
+
+<h3>Cocktails</h3>
+
+<ul>
+  {%- for recipe in collections.cocktails -%}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {%- endfor -%}
+</ul>

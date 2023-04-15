@@ -1,5 +1,7 @@
 ---
 title: Buttermilk Waffles
+tags:
+  - breakfast
 ---
 
 # Buttermilk Waffles

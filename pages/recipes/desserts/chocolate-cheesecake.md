@@ -1,5 +1,7 @@
 ---
 title: Chocolate Cheesecake
+tags:
+  - desserts
 ---
 
 # Chocolate Cheesecake

@@ -1,5 +1,7 @@
 ---
 title: Shrimp Scampi
+tags:
+  - dinner
 ---
 
 # Shrimp Scampi

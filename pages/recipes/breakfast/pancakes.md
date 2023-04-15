@@ -1,5 +1,7 @@
 ---
 title: Pancakes
+tags:
+  - breakfast
 ---
 
 # Pancakes

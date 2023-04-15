@@ -1,5 +1,7 @@
 ---
 title: Necromancer
+tags:
+  - cocktails
 ---
 
 # Necromancer

@@ -1,5 +1,7 @@
 ---
 title: Sazerac
+tags:
+  - cocktails
 ---
 
 # Sazerac

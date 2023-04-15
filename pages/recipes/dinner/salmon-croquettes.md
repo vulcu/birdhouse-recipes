@@ -1,5 +1,7 @@
 ---
 title: Salmon Croquettes
+tags:
+  - dinner
 ---
 
 # Salmon Croquettes

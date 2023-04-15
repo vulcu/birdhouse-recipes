@@ -1,5 +1,7 @@
 ---
 title: Belgian Waffles
+tags:
+  - breakfast
 ---
 
 # Belgian Waffles

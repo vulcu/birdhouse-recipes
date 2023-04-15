@@ -1,5 +1,7 @@
 ---
 title: Lyctor
+tags:
+  - cocktails
 ---
 
 # Lyctor

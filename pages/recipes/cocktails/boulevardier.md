@@ -1,5 +1,7 @@
 ---
 title: Boulevardier
+tags:
+  - cocktails
 ---
 
 # Boulevardier

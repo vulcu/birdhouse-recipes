@@ -1,5 +1,7 @@
 ---
 title: Chocolate Oatmeal Cookies
+tags:
+  - desserts
 ---
 
 # Chocolate Oatmeal Cookies

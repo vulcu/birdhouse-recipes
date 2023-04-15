@@ -1,5 +1,7 @@
 ---
 title: Rice Crispy Treats
+tags:
+  - desserts
 ---
 
 # Rice Crispy Treats

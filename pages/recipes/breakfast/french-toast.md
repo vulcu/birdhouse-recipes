@@ -1,5 +1,7 @@
 ---
 title: French Toast
+tags:
+  - breakfast
 ---
 
 # French Toast
