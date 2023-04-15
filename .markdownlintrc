@@ -4,10 +4,10 @@
   "code-fence-style": "backtick",
   "emphasis-style": "underscore",
   "strong-style": "asterisk",
-  "heading-style": { "style": "atx_closed" },
+  "heading-style": { "style": "atx" },
   "heading-increment": true,
   "line-length": {
-    "line_length": 100,
+    "line_length": 79,
     "tables": false
   },
   "no-hard-tabs": true,
