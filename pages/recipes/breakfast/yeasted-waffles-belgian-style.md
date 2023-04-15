@@ -53,4 +53,4 @@ Cook: 30m
 - Measurements for dry ingredients are given by weight for greater accuracy.
   The equivalent measurements by volume are approximate.
 
-![yeasted-belgian-waffles](img/yeasted_belgian_waffles_715x485.jpg)
+{% image 'pages/recipes/breakfast/img/yeasted_belgian_waffles_715x485.jpg', 'Yeasted Belgian Waffles.' %}

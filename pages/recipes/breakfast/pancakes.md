@@ -62,4 +62,4 @@ their volume.
     batter and gently fold in immediately before cooking.
   - If using fresh blueberries, dry after washing.
 
-![pancakes_1024x768](img/pancakes_1024x768.jpg)
+{% image 'pages/recipes/breakfast/img/pancakes_1024x768.jpg', 'Pancakes.' %}

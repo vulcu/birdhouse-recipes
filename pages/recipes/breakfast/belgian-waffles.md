@@ -44,4 +44,4 @@ Cook: 45 min
 
 - none
 
-![belgian_waffles](img/belgian_waffles_1024x731.jpg)
+{% image 'pages/recipes/breakfast/img/belgian_waffles_1024x731.jpg', 'Belgian waffles.' %}

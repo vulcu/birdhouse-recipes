@@ -33,4 +33,4 @@ tags:
 - Just before transferring to pan, try mixing in more marshmallows to
   leave marshmallow chunks in the bars.
 
-![A layer of unsliced rice crispies in a pan.](img/rice-crispy-treats-01.jpg)
+{% image 'pages/recipes/desserts/img/rice-crispy-treats-01.jpg', 'A layer of unsliced rice crispies in a pan.' %}
