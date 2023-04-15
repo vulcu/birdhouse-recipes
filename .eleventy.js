@@ -4,7 +4,7 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: 'recipes',
+      input: 'pages',
       output: 'dist',
       includes: '../src',
     },
