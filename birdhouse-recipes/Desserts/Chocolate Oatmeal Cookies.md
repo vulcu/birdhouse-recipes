@@ -30,7 +30,8 @@
 
 ## Notes
 
-- Once you add the oatmeal, the mixture will begin to dry very quickly. Be quick or the final cookies will be dry and crumbly.
+- Once you add the oatmeal, the mixture will begin to dry very
+  quickly. Be quick or the final cookies will be dry and crumbly.
 - For creamier/smoother cookies, use slightly less oatmeal.
 
 ![Chocolate oatmeal cookies sit on a white plate.](img/chocolate-oatmeal-cookies-01.jpg)
