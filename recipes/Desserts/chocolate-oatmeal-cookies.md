@@ -1,3 +1,8 @@
+---
+title: Chocolate Oatmeal Cookies
+layout: default
+---
+
 # Chocolate Oatmeal Cookies
 
 | Prep | Bake  | Total | Makes                |

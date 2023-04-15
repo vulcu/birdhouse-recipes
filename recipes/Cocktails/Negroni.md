@@ -1,3 +1,8 @@
+---
+title: Negroni
+layout: default
+---
+
 # Negroni
 
 ## Ingredients

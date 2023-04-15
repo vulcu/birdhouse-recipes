@@ -1,3 +1,8 @@
+---
+title: Buttermilk Pancakes
+layout: default
+---
+
 # Buttermilk Pancakes
 
 Serving: \<serving_size\>

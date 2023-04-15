@@ -1,3 +1,8 @@
+---
+title: Caipirinha
+layout: default
+---
+
 # Caipirinha
 
 ## Ingredients

@@ -1,3 +1,8 @@
+---
+title: Yeasted Waffles (Belgian Style)
+layout: default
+---
+
 # Yeasted Waffles (Belgian Style)
 
 Serving: 4 waffles

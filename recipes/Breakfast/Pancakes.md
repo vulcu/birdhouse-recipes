@@ -1,3 +1,8 @@
+---
+title: Pancakes
+layout: default
+---
+
 # Pancakes
 
 Serving: 6-8 pancakes

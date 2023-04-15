@@ -1,3 +1,8 @@
+---
+title: Shrimp Scampi
+layout: default
+---
+
 # Shrimp Scampi
 
 ## Ingredients

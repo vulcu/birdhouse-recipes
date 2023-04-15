@@ -1,3 +1,8 @@
+---
+title: Corpse Reviver No. 2
+layout: default
+---
+
 # Corpse Reviver No. 2
 
 ## Ingredients

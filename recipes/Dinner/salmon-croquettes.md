@@ -1,3 +1,8 @@
+---
+title: Salmon Croquettes
+layout: default
+---
+
 # Salmon Croquettes
 
 ## Ingredients

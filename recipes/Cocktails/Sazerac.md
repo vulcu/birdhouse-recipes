@@ -1,3 +1,8 @@
+---
+title: Sazerac
+layout: default
+---
+
 # Sazerac
 
 ## Ingredients

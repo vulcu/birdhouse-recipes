@@ -1,4 +1,9 @@
-# Frensh Toast
+---
+title: French Toast
+layout: default
+---
+
+# French Toast
 
 Serving: 4-6 slices
 Prep: 5m

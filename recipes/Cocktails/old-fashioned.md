@@ -1,3 +1,8 @@
+---
+title: Old Fashioned
+layout: default
+---
+
 # Old Fashioned
 
 ## Ingredients

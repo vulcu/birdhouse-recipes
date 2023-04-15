@@ -1,3 +1,8 @@
+---
+title: Buttermilk Waffles
+layout: default
+---
+
 # Buttermilk Waffles
 
 Serving: \<serving_size\>

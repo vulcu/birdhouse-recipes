@@ -1,3 +1,8 @@
+---
+title: Tequiliano
+layout: default
+---
+
 # Tequiliano
 
 ## Ingredients

@@ -1,3 +1,8 @@
+---
+title: Obituary
+layout: default
+---
+
 # Obituary
 
 ## Ingredients

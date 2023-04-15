@@ -1,3 +1,8 @@
+---
+title: Belgian Waffles
+layout: default
+---
+
 # Belgian Waffles
 
 Serving: 6 waffles

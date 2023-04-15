@@ -1,3 +1,8 @@
+---
+title: Oatmeal Raisin Cookies
+layout: default
+---
+
 # Oatmeal Raisin Cookies
 
 | prep | bake | total | makes                |

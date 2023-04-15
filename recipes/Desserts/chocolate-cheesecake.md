@@ -1,3 +1,8 @@
+---
+title: Chocolate Cheesecake
+layout: default
+---
+
 # Chocolate Cheesecake
 
 | prep   | bake   | total | makes  |

@@ -1,3 +1,8 @@
+---
+title: Chocolate Hazelnut Spread Mousse
+layout: default
+---
+
 # Chocolate Hazelnut Spread Mousse
 
 | prep  | total    | makes        |

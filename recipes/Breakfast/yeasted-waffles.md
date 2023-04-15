@@ -1,3 +1,8 @@
+---
+title: Yeasted Waffles
+layout: default
+---
+
 # Yeasted Waffles
 
 Serving: 8-10 waffles

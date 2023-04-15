@@ -1,3 +1,8 @@
+---
+title: Lyctor
+layout: default
+---
+
 # Lyctor
 
 ## Ingredients

@@ -1,3 +1,8 @@
+---
+title: Rice Crispy Treats
+layout: default
+---
+
 # Rice Crispy Treats
 
 ## Ingredients

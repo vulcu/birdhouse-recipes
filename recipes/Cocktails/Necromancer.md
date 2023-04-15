@@ -1,3 +1,8 @@
+---
+title: Necromancer
+layout: default
+---
+
 # Necromancer
 
 ## Ingredients

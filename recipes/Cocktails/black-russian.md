@@ -1,3 +1,8 @@
+---
+title: Black Russian
+layout: default
+---
+
 # Black Russian
 
 ## Ingredients

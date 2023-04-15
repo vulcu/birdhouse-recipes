@@ -1,3 +1,8 @@
+---
+title: Chile
+layout: default
+---
+
 # Chile
 
 Emma’s Recipe

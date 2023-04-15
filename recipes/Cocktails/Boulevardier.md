@@ -1,3 +1,8 @@
+---
+title: Boulevardier
+layout: default
+---
+
 # Boulevardier
 
 ## Ingredients

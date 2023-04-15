@@ -1,3 +1,8 @@
+---
+title: Fried Okra
+layout: default
+---
+
 # Fried Okra
 
 ## Ingredients
