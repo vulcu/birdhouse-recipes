@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Food and drink for birds and furies.",
   "scripts": {
+    "start": "rm -rf dist && npx @11ty/eleventy --serve --incremental",
+    "build": "rm -rf dist && npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:md": "markdownlint **/*.md --ignore node_modules",
-    "lint": "npm run lint:md"
+    "lint:css": "stylelint \"src/**/*.{css,scss,sass}\" --color --formatter verbose",
+    "lint:js": "DEBUG=eslint:cli-engine eslint .",
+    "lint": "npm run lint:md && npm run lint:css && npm run lint:js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,12 @@
   },
   "homepage": "https://github.com/vulcu/birdhouse-recipes#readme",
   "devDependencies": {
-    "markdownlint-cli": "^0.33.0"
+    "@11ty/eleventy": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "markdownlint-cli": "^0.33.0",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard": "^32.0.0"
   }
 }

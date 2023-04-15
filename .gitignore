@@ -6,3 +6,8 @@
 
 # debug
 npm-debug.log*
+
+# 11ty
+/_site
+/dist
+.env
