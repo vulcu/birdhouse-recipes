@@ -18,7 +18,7 @@ jobs:
           accessToken: ${{ secrets.GITHUB_TOKEN }}
 
   test:
-    name: Lint
+    name: Lint and Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,3 +28,12 @@ jobs:
 
       - name: Lint Markdown
         run: npm run lint:md
+
+      - name: Lint CSS
+        run: npm run lint:css
+
+      - name: Lint JS
+        run: npm run lint:js
+      
+      - name: Build
+        run: npm run build
