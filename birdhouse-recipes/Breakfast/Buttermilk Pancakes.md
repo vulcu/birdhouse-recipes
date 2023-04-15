@@ -1,4 +1,4 @@
-# Description
+# Buttermilk Pancakes
 
 Serving: \<serving_size\>
 Prep: \<prep_time\>

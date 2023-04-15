@@ -1,4 +1,4 @@
-# Description
+# Yeasted Waffles
 
 Serving: 8-10 waffles
 Prep: 1 hr, plus 2-3 hrs' standing

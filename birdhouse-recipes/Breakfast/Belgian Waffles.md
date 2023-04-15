@@ -1,4 +1,4 @@
-# Description
+# Belgian Waffles
 
 Serving: 6 waffles
 Prep: 25 min

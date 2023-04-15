@@ -1,4 +1,4 @@
-# Description
+# Pancakes
 
 Serving: 6-8 pancakes
 Prep: 20m

@@ -1,4 +1,4 @@
-# Description
+# Frensh Toast
 
 Serving: 4-6 slices
 Prep: 5m

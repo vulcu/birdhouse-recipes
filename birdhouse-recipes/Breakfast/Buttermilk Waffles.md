@@ -1,4 +1,4 @@
-# Description
+# Buttermilk Waffles
 
 Serving: \<serving_size\>
 Prep: \<prep_time\>

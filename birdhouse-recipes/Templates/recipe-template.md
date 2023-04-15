@@ -1,4 +1,4 @@
-# Description
+# Name
 
 Serving: \<serving_size\>
 Prep: \<prep_time\>

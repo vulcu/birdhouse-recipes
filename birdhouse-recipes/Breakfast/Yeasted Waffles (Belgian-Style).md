@@ -1,4 +1,4 @@
-# Description
+# Yeasted Waffles (Belgian Style)
 
 Serving: 4 waffles
 Prep: 30 min
