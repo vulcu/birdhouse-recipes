@@ -2,6 +2,7 @@
 title: Buttermilk Pancakes
 tags:
   - breakfast
+  - pancakes
 ---
 
 # Buttermilk Pancakes

@@ -2,6 +2,7 @@
 title: Yeasted Waffles (Belgian Style)
 tags:
   - breakfast
+  - waffles
 ---
 
 # Yeasted Waffles (Belgian Style)

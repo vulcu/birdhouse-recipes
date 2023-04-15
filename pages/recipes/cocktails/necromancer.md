@@ -2,6 +2,7 @@
 title: Necromancer
 tags:
   - cocktails
+  - cocktails-necromancy
 ---
 
 # Necromancer

@@ -2,6 +2,7 @@
 title: Pancakes
 tags:
   - breakfast
+  - pancakes
 ---
 
 # Pancakes

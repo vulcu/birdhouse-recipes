@@ -2,6 +2,7 @@
 title: Corpse Reviver No. 2
 tags:
   - cocktails
+  - cocktails-necromancy
 ---
 
 # Corpse Reviver No. 2

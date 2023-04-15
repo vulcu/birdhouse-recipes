@@ -2,6 +2,7 @@
 title: Belgian Waffles
 tags:
   - breakfast
+  - waffles
 ---
 
 # Belgian Waffles

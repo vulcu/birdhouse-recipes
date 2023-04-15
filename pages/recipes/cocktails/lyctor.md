@@ -2,6 +2,7 @@
 title: Lyctor
 tags:
   - cocktails
+  - cocktails-necromancy
 ---
 
 # Lyctor

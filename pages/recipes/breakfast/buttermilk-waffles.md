@@ -2,6 +2,7 @@
 title: Buttermilk Waffles
 tags:
   - breakfast
+  - waffles
 ---
 
 # Buttermilk Waffles

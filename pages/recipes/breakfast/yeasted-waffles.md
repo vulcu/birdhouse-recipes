@@ -2,6 +2,7 @@
 title: Yeasted Waffles
 tags:
   - breakfast
+  - waffles
 ---
 
 # Yeasted Waffles

@@ -2,6 +2,7 @@
 title: Obituary
 tags:
   - cocktails
+  - cocktails-necromancy
 ---
 
 # Obituary
