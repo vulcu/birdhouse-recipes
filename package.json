@@ -4,7 +4,7 @@
   "description": "Food and drink for birds and furies.",
   "scripts": {
     "start": "rm -rf dist && npm-run-all sass --parallel watch:*",
-    "build": "rm -rf dist && npx @11ty/eleventy",
+    "build": "rm -rf dist && npm run sass && npx @11ty/eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "watch:sass": "npm run sass -- --watch",
     "sass": "sass --style=compressed --no-source-map src/scss:src/css",
