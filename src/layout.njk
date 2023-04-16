@@ -31,7 +31,9 @@
         {{ content | safe }}
       {% endblock %}
     </main>
-    {% block footer %}{% endblock %}
+    {% block footer %}
+      {% include 'footer.njk' %}
+    {% endblock %}
 
     <!-- global scripts, should render on every page -->
 
