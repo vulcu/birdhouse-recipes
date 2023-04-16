@@ -3,6 +3,10 @@ html {
   color: var(--color-text);
 }
 
+a {
+  color: var(--color-link);
+}
+
 header {
   margin: 0 auto;
   padding: 0.5rem 0;
@@ -32,14 +36,10 @@ header {
 }
 
 footer {
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1rem;
   padding: 0.5rem 0;
   max-width: 1100px;
   text-align: center;
-}
-
-a {
-  color: var(--color-link);
 }
 
 h1 {

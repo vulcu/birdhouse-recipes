@@ -1,17 +1,19 @@
-//------------------ VARIABLES ------------------
+@use 'sass:color';
+
+// ------------------ VARIABLES ------------------
 
 $c-dark-grey: #2a2a2f;
 $c-light-grey: #e0e0e5;
 $c-medium-grey: #808085;
 $c-dark-pink: #c00044;
-$c-light-pink: #ff77aa;
+$c-light-pink: #f7a;
 
-//------------------- THEMES --------------------
+// ------------------- THEMES --------------------
 
 @mixin light-mode {
   --theme-name: "Light Mode";
   --color-bg: #{$c-light-grey};
-  --color-bg-darker: #{darken($c-light-grey, 8%)};
+  --color-bg-darker: #{color.adjust($c-light-grey, $lightness: -8%)};
   --color-text: #{$c-dark-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-dark-pink};
@@ -20,13 +22,13 @@ $c-light-pink: #ff77aa;
 @mixin dark-mode {
   --theme-name: "Dark Mode";
   --color-bg: #{$c-dark-grey};
-  --color-bg-darker: #{darken($c-dark-grey, 8%)};
+  --color-bg-darker: #{color.adjust($c-dark-grey, $lightness: -8%)};
   --color-text: #{$c-light-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-light-pink};
 }
 
-//-------------- QUERIES FOR ROOT ---------------
+// -------------- QUERIES FOR ROOT ---------------
 
 
 :root {
@@ -42,12 +44,13 @@ $c-light-pink: #ff77aa;
 @media print {
   :root {
     @include light-mode;
+
     --color-bg: #fff;
     --color-text: #000;
   }
 }
 
-//------------------- TOGGLES -------------------
+// ------------------- TOGGLES -------------------
 
 [data-theme="light"] {
   @include light-mode;
@@ -63,9 +66,9 @@ $c-light-pink: #ff77aa;
   @include dark-mode;
 }
 
-//------------------- SWITCH --------------------
+// ------------------- SWITCH --------------------
 
-@keyframes checkboxAnim {
+@keyframes theme-toggle-anim {
   0% {
     transform: rotate(0deg);
     margin-right: 0.5rem;
@@ -77,7 +80,7 @@ $c-light-pink: #ff77aa;
   }
 }
 
-@keyframes checkboxAnimBack {
+@keyframes theme-toggle-anim-back {
   0% {
     transform: rotate(180deg);
     margin-right: -0.5rem;
@@ -133,13 +136,13 @@ $c-light-pink: #ff77aa;
       border-bottom-left-radius: 6.25rem;
       border-right: 0;
       transition: .4s border-radius;
-      animation: checkboxAnimBack .4s;
+      animation: theme-toggle-anim-back .4s;
     }
 
     &:checked {
       &::after {
         content: "";
-        animation: checkboxAnim .4s;
+        animation: theme-toggle-anim .4s;
         position: absolute;
         transform: rotate(-180deg);
         width: 0.5rem;
@@ -149,7 +152,7 @@ $c-light-pink: #ff77aa;
     }
 
     &:hover {
-      box-shadow: 0 0.125rem 0.75rem 0.25rem rgba(0, 0, 0, 0.125);
+      box-shadow: 0 0.125rem 0.75rem 0.25rem rgba(0 0 0 / 12.5%);
     }
   }
 }
