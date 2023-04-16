@@ -1,6 +1,6 @@
 //------------------ VARIABLES ------------------
 
-$c-dark-grey: #202025;
+$c-dark-grey: #2a2a2f;
 $c-light-grey: #e0e0e5;
 $c-medium-grey: #808085;
 $c-dark-pink: #c00044;
@@ -11,7 +11,7 @@ $c-light-pink: #ff77aa;
 @mixin light-mode {
   --theme-name: "Light Mode";
   --color-bg: #{$c-light-grey};
-  --color-bg-darker: #{darken($c-light-grey, 10%)};
+  --color-bg-darker: #{darken($c-light-grey, 8%)};
   --color-text: #{$c-dark-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-dark-pink};
@@ -20,7 +20,7 @@ $c-light-pink: #ff77aa;
 @mixin dark-mode {
   --theme-name: "Dark Mode";
   --color-bg: #{$c-dark-grey};
-  --color-bg-darker: #{darken($c-dark-grey, 10%)};
+  --color-bg-darker: #{darken($c-dark-grey, 8%)};
   --color-text: #{$c-light-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-light-pink};
