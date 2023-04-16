@@ -34,4 +34,7 @@ Cook: 20m
 cinnamon to 1 cup
 pancake syrup; stir well to mix. Serve warm, if desired.
 
-{% image 'pages/recipes/breakfast/img/french_toast_800x800.jpg', 'French toast.' %}
+{% image
+  'pages/recipes/breakfast/img/french_toast_800x800.jpg',
+  'French toast.'
+%}

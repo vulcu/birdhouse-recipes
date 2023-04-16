@@ -6,6 +6,9 @@
   "strong-style": "asterisk",
   "heading-style": { "style": "atx" },
   "heading-increment": true,
+  "single-title": false,
+  "first-line-h1": false,
+  "no-inline-html": false,
   "line-length": {
     "line_length": 79,
     "tables": false

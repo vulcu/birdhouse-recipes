@@ -51,4 +51,7 @@ Cook: 45m
 - Measurements for dry ingredients are given by weight for greater accuracy.
   The equivalent measurements by volume are approximate.
 
-{% image 'pages/recipes/breakfast/img/yeasted_waffles_650x435.jpg', 'Yeasted Waffles.' %}
+{% image
+  'pages/recipes/breakfast/img/yeasted_waffles_650x435.jpg',
+  'Yeasted Waffles.'
+%}

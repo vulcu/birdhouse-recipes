@@ -40,4 +40,7 @@ tags:
   quickly. Be quick or the final cookies will be dry and crumbly.
 - For creamier/smoother cookies, use slightly less oatmeal.
 
-{% image 'pages/recipes/desserts/img/chocolate-oatmeal-cookies-01.jpg', 'Chocolate oatmeal cookies sit on a white plate.' %}
+{% image
+  'pages/recipes/desserts/img/chocolate-oatmeal-cookies-01.jpg',
+  'Chocolate oatmeal cookies sit on a white plate.'
+%}
