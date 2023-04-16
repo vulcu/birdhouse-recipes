@@ -1,6 +1,6 @@
 const themeToggle = document.getElementById('theme-toggle');
 let theme = localStorage.getItem('theme') ?? 'light';
-themeToggle.checked = theme == 'dark';
+themeToggle.getElementsByTagName('input')[0].checked = theme == 'dark';
 document.documentElement.setAttribute('data-theme', theme);
 
 function toggleTheme(e) {
