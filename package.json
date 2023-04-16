@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Food and drink for birds and furies.",
   "scripts": {
-    "start": "rm -rf dist && npx @11ty/eleventy --serve --incremental",
+    "start": "rm -rf dist && npm-run-all sass --parallel watch:*",
     "build": "rm -rf dist && npx @11ty/eleventy",
+    "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
+    "watch:sass": "npm run sass -- --watch",
+    "sass": "sass --style=compressed src/scss:src/css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:md": "markdownlint **/*.md --ignore node_modules",
     "lint:css": "stylelint \"src/**/*.{css,scss,sass}\" --color --formatter verbose",
@@ -37,6 +40,8 @@
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "markdownlint-cli": "^0.33.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.62.0",
     "stylelint": "^15.4.0",
     "stylelint-config-standard": "^32.0.0"
   }

@@ -1,0 +1,155 @@
+//------------------ VARIABLES ------------------
+
+$c-dark-grey: #202025;
+$c-light-grey: #e0e0e5;
+$c-medium-grey: #808085;
+$c-dark-pink: #c00044;
+$c-light-pink: #ff77aa;
+
+//------------------- THEMES --------------------
+
+@mixin light-mode {
+  --theme-name: "Light Mode";
+  --color-bg: #{$c-light-grey};
+  --color-bg-darker: #{darken($c-light-grey, 10%)};
+  --color-text: #{$c-dark-grey};
+  --color-muted: #{$c-medium-grey};
+  --color-link: #{$c-dark-pink};
+}
+
+@mixin dark-mode {
+  --theme-name: "Dark Mode";
+  --color-bg: #{$c-dark-grey};
+  --color-bg-darker: #{darken($c-dark-grey, 10%)};
+  --color-text: #{$c-light-grey};
+  --color-muted: #{$c-medium-grey};
+  --color-link: #{$c-light-pink};
+}
+
+//-------------- QUERIES FOR ROOT ---------------
+
+
+:root {
+  @include light-mode;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include dark-mode;
+  }
+}
+
+@media print {
+  :root {
+    @include light-mode;
+    --color-bg: #fff;
+    --color-text: #000;
+  }
+}
+
+//------------------- TOGGLES -------------------
+
+[data-theme="light"] {
+  @include light-mode;
+}
+
+@media (prefers-color-scheme: dark) {
+  :not([data-theme="light"]) {
+    @include dark-mode;
+  }
+}
+
+[data-theme="dark"] {
+  @include dark-mode;
+}
+
+//------------------- SWITCH --------------------
+
+@keyframes checkboxAnim {
+  0% {
+    transform: rotate(0deg);
+    margin-right: 0.5rem;
+  }
+  
+  100% {
+    transform: rotate(180deg);
+    margin-right: -0.5rem;
+  }
+}
+
+@keyframes checkboxAnimBack {
+  0% {
+    transform: rotate(180deg);
+    margin-right: -0.5rem;
+  }
+  
+  100% {
+    transform: rotate(0deg);
+    margin-right: 0.5rem;
+  }
+}
+
+#theme-toggle {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input[type="checkbox"] {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+    appearance: none;
+    background-color: var(--color-text);
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: relative;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-color: var(--color-bg);
+      border-radius: 5rem;
+      transition: .3s;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: var(--color-text);
+      width: 0.5rem;
+      height: 1rem;
+      margin-right: 0.5rem;
+      transform: rotate(0deg);
+      border-top-left-radius: 6.25rem;
+      border-bottom-left-radius: 6.25rem;
+      border-right: 0;
+      transition: .4s border-radius;
+      animation: checkboxAnimBack .4s;
+    }
+
+    &:checked {
+      &::after {
+        content: "";
+        animation: checkboxAnim .4s;
+        position: absolute;
+        transform: rotate(-180deg);
+        width: 0.5rem;
+        height: 1rem;
+        margin-right: -0.5rem;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0.125rem 0.75rem 0.25rem rgba(0, 0, 0, 0.125);
+    }
+  }
+}
