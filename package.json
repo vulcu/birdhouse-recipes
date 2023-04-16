@@ -7,7 +7,7 @@
     "build": "rm -rf dist && npx @11ty/eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "watch:sass": "npm run sass -- --watch",
-    "sass": "sass --style=compressed src/scss:src/css",
+    "sass": "sass --style=compressed --no-source-map src/scss:src/css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:md": "markdownlint **/*.md --ignore node_modules",
     "lint:css": "stylelint \"src/**/*.{css,scss,sass}\" --color --formatter verbose",
