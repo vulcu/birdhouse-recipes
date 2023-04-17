@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:md": "markdownlint **/*.md --ignore node_modules",
     "lint:css": "stylelint \"src/scss/*.{css,scss,sass}\" --color --formatter verbose",
-    "lint:js": "DEBUG=eslint:cli-engine eslint .",
+    "lint:js": "npx eslint .",
     "lint": "npm run lint:md && npm run lint:css && npm run lint:js"
   },
   "repository": {

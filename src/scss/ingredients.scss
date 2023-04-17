@@ -6,10 +6,8 @@
   &__table {
     text-align: left;
 
-    thead {
-      th {
-        border-bottom: 1px solid var(--color-muted);
-      }
+    th {
+      border-bottom: 1px solid var(--color-muted);
     }
 
     th,

@@ -8,7 +8,7 @@ if (files.length) {
     const parts = filename.split('/');
     const category = parts[2];
     const recipe = parts[parts.length - 1].replace(
-      /^(.+?)(?:\-\d+)?\.[a-z]+$/i,
+      /^(.+?)(?:-\d+)?\.[a-z]+$/i,
       '$1'
     );
     if (typeof images[category] === 'undefined') {
