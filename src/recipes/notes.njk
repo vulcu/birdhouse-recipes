@@ -1,0 +1,10 @@
+{% if r.notes %}
+  <div class="notes">
+    <h3 class="notes__header">Notes</h3>
+    <ul class="notes__list">
+    {% for note in r.notes -%}
+      <li>{{ note }}</li>
+    {%- endfor %}
+    </ul>
+  </div>
+{% endif %}

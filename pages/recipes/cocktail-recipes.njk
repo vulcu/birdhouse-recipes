@@ -12,6 +12,7 @@ layout: layout-recipe.njk
 
 {% include 'recipes/ingredients.njk' %}
 {% include 'recipes/steps.njk' %}
+{% include 'recipes/notes.njk' %}
 
 {%- for img in r.images -%}
   {% image [ "data/recipes/cocktails/images/", img.filename ] | join, img.alt %}
