@@ -1,17 +1,19 @@
 {% if r.time %}
-  <h3>Time</h3>
-  <ul>
-    {% if r.time.prep -%}
-      <li>Prep: {{ r.time.prep }}</li>
-    {%- endif %}
-    {% if r.time.cook -%}
-      <li>Cook: {{ r.time.cook }}</li>
-    {%- endif %}
-    {% if r.time.bake -%}
-      <li>Bake: {{ r.time.bake }}</li>
-    {%- endif %}
-    {% if r.time.total -%}
-      <li>Total: {{ r.time.total }}</li>
-    {%- endif %}
-  </ul>
+  <div class="time">
+    <h3 class="time__header">Time</h3>
+    <ul class="time__list">
+      {% if r.time.prep -%}
+        <li>Prep: {{ r.time.prep }}</li>
+      {%- endif %}
+      {% if r.time.cook -%}
+        <li>Cook: {{ r.time.cook }}</li>
+      {%- endif %}
+      {% if r.time.bake -%}
+        <li>Bake: {{ r.time.bake }}</li>
+      {%- endif %}
+      {% if r.time.total -%}
+        <li>Total: {{ r.time.total }}</li>
+      {%- endif %}
+    </ul>
+  </div>
 {% endif %}

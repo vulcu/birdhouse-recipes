@@ -1,19 +1,21 @@
 {% if r.ingredients %}
-  <h3>Ingredients</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Qty.</th>
-        <th>Item</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for i in r.ingredients -%}
+  <div class="ingredients">
+    <h3 class="ingredients__header">Ingredients</h3>
+    <table class="ingredients__table">
+      <thead>
         <tr>
-          <td>{{ i.qty }}</td>
-          <td>{{ i.item }}</td>
+          <th>Qty.</th>
+          <th>Item</th>
         </tr>
-      {%- endfor %}
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        {% for i in r.ingredients -%}
+          <tr>
+            <td>{{ i.qty }}</td>
+            <td>{{ i.item }}</td>
+          </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
 {% endif %}
