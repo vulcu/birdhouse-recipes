@@ -5,6 +5,8 @@ pagination:
   alias: recipe
 permalink: "recipes/desserts/{{ recipe }}/"
 layout: layout-recipe.njk
+eleventyComputed:
+  title: "{{ recipes.desserts[recipe].title }}"
 ---
 {% set r = recipes.desserts[recipe] %}
 {% set category = "desserts" %}
