@@ -9,19 +9,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('image', async function (src, alt, sizes = "100vw") {
     let metadata = await Image(src, {
-      widths: [300, 600],
+      widths: [300, 600, 800, null],
       formats: ['avif', 'jpeg'],
       outputDir: './dist/img/',
     });
 
-    let imageAttributes = {
-      alt,
-      sizes,
-      loading: 'lazy',
-      decoding: 'async',
-    };
+		let lowsrc = metadata.jpeg[0];
 
-    return Image.generateHTML(metadata, imageAttributes);
+		return `<picture>
+  			${Object.values(metadata).map(imageFormat => {
+  				return `<source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+  			}).join("\n")}
+				<img src="${lowsrc.url}" alt="${alt}" loading="lazy" decoding="async">
+			</picture>`;
   });
 
   return {
