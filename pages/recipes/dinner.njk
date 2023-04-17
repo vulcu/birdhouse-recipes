@@ -1,0 +1,15 @@
+---
+title: Dinner
+permalink: "recipes/dinner/"
+layout: default
+---
+
+<h1>{{ global.siteName }}</h1>
+
+<h2>Dinner</h2>
+
+<ul>
+  {% for slug, recipe in recipes.dinner -%}
+    <li><a href="/recipes/dinner/{{ slug }}/">{{ recipe.title }}</a></li>
+  {%- endfor %}
+</ul>
