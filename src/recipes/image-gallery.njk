@@ -1,0 +1,12 @@
+{% if r.images %}
+  <div class="image-gallery">
+    <h3 class="image-gallery__header">Images</h3>
+    <div class="image-gallery__gallery">
+      {%- for img in r.images -%}
+        <div class="image-gallery__image">
+          {% image [ "data/recipes/", category, "/images/", img.filename ] | join, img.alt %}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+{% endif %}

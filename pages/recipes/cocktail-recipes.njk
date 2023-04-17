@@ -7,13 +7,11 @@ permalink: "recipes/cocktails/{{ recipe }}/"
 layout: layout-recipe.njk
 ---
 {% set r = recipes.cocktails[recipe] %}
+{% set category = "cocktails" %}
 
 <h2>{{ r.title if r.title else "undefined" }}</h2>
 
 {% include 'recipes/ingredients.njk' %}
 {% include 'recipes/steps.njk' %}
 {% include 'recipes/notes.njk' %}
-
-{%- for img in r.images -%}
-  {% image [ "data/recipes/cocktails/images/", img.filename ] | join, img.alt %}
-{%- endfor -%}
+{% include 'recipes/image-gallery.njk' %}
