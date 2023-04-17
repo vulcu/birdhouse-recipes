@@ -8,8 +8,6 @@ layout: layout-recipe.njk
 ---
 {% set r = recipes.desserts[recipe] %}
 
-<h1>{{ global.siteName }}</h1>
-
 <h2>{{ r.title if r.title else "undefined" }}</h2>
 
 {% include 'recipes/yields.njk' %}
