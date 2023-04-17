@@ -1,0 +1,8 @@
+{% if r.steps %}
+  <h3>Steps</h3>
+  <ol>
+  {% for step in r.steps -%}
+    <li>{{ step }}</li>
+  {%- endfor %}
+  </ol>
+{% endif %}

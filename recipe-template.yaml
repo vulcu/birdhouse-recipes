@@ -1,0 +1,37 @@
+title: Name of recipe
+tags:
+  - tag-1
+  - tag-2
+
+images:
+  - filename: image.jpg
+    alt: Alt description of image.
+  - filename: image2.jpg
+    alt: Alt description of second image.
+
+yields: 10 somethings
+
+time:
+  prep: 10m
+  cook: 10m
+  bake: 10m
+  total: 10m
+
+ingredients:
+  -
+    qty: 2 cups
+    item: Something
+  -
+    qty: 1 Tbsp
+    item: Something else
+  -
+    item: Unmeasured item
+
+steps:
+  - Step 1
+  - Step 2
+  - Step 3
+
+notes:
+  - Note 1
+  - Note 2

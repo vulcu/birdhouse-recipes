@@ -1,8 +1,11 @@
 const Image = require('@11ty/eleventy-img');
+const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/public': '/' });
   eleventyConfig.addLayoutAlias('default', 'layout.njk');
+
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   eleventyConfig.addShortcode('image', async function (src, alt, sizes = "100vw") {
     let metadata = await Image(src, {
@@ -26,6 +29,7 @@ module.exports = function (eleventyConfig) {
       input: 'pages',
       output: 'dist',
       includes: '../src',
+      data: '../data',
     },
     markdownTemplateEngine: 'njk',
   };

@@ -1,0 +1,19 @@
+{% if r.ingredients %}
+  <h3>Ingredients</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Qty.</th>
+        <th>Item</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in r.ingredients -%}
+        <tr>
+          <td>{{ i.qty }}</td>
+          <td>{{ i.item }}</td>
+        </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+{% endif %}

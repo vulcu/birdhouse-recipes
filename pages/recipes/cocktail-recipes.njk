@@ -1,0 +1,20 @@
+---
+pagination:
+  data: recipes.cocktails
+  size: 1
+  alias: recipe
+permalink: "recipes/cocktails/{{ recipe }}/"
+layout: layout-recipe.njk
+---
+{% set r = recipes.cocktails[recipe] %}
+
+<h1>{{ global.siteName }}</h1>
+
+<h2>{{ r.title if r.title else "undefined" }}</h2>
+
+{% include 'recipes/ingredients.njk' %}
+{% include 'recipes/steps.njk' %}
+
+{%- for img in r.images -%}
+  {% image [ "data/recipes/cocktails/images/", img.filename ] | join, img.alt %}
+{%- endfor -%}

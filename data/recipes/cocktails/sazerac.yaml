@@ -1,0 +1,26 @@
+title: Sazerac
+tags:
+
+ingredients:
+  -
+    qty: 1/4 oz
+    item: Absinthe
+  -
+    qty: 2 oz
+    item: Rye whiskey
+  -
+    qty: 3 dashes
+    item: Peychaud's bitters
+  -
+    qty: 1
+    item: Sugar cube
+  -
+    item: Lemon peel
+
+steps:
+  - Chill a rocks glass.
+  - In a mixing glass, muddle the sugar cube and bitters.
+  - Add the rye, fill with ice, and stir until well-chilled.
+  - Rinse a chilled rocks glass with absinthe.
+  - Strain drink into the glass.
+  - Twist a slice of lemon peel over the surface, then discard or use for garnish.

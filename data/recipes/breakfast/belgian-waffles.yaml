@@ -1,0 +1,55 @@
+title: Belgian Waffles
+tags:
+  - waffles
+
+images:
+  - filename: belgian-waffles-1.jpg
+    alt: A belgian waffle.
+
+yields: 6 waffles
+
+time:
+  prep: 25 min
+  cook: 45 min
+
+ingredients:
+  -
+    qty: 2 cups
+    item: Flour
+  -
+    qty: 4 tsp
+    item: Baking Powder
+  -
+    qty: 1/2 tsp
+    item: Salt
+  -
+    qty: 1/4 cup
+    item: Sugar
+  -
+    qty: 2
+    item: Eggs
+  -
+    qty: 1/2 cup
+    item: Canola Oil
+  -
+    qty: 1 cup
+    item: Whole Milk
+  -
+    qty: 1 cup
+    item: Oat Milk
+  -
+    qty: 1 tsp
+    item: Vanilla
+
+steps:
+  - Turn on waffle iron to preheat.
+  - Sift the dry ingredients together in a large bowl.
+  - |
+    In a separate bowl, separate eggs whites and beat until stiff peaks form.
+    Note it is very important not to get yolk in this, as it will prevent egg
+    whites from stiffening.
+  - In a separate bowl, add egg yolks and beat until slackened.
+  - Mix milk, oat milk, oil, and vanilla into egg yolks and stir gently until mixed.
+  - Add wet mixture into dry ingredients and mix thoroughly until batter is smooth.
+  - Gently fold in egg whites, carefully so as not to lose egg white volume
+  - Cook each waffle approximately 4 min/side
