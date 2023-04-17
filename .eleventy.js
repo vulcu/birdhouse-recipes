@@ -31,6 +31,10 @@ module.exports = function (eleventyConfig) {
       includes: '../src',
       data: '../data',
     },
+    pathPrefix:
+      process.env.ELEVENTY_RUN_MODE === 'build'
+        ? '/birdhouse-recipes/'
+        : '/', // serve, watch
     markdownTemplateEngine: 'njk',
   };
 };

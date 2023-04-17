@@ -9,18 +9,18 @@
     <meta name="description" content="{{ description }}">
     {% endblock %}
 
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="alternate icon" href="/favicon.png" type="image/png">
-    <link rel="mask-icon" href="/favicon.svg">
+    <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ '/favicon.png' | url }}" type="image/png">
+    <link rel="mask-icon" href="{{ '/favicon.svg' | url }}">
 
-    <link rel="apple-touch-icon" href="/maskable_icon.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="{{ '/maskable_icon.png' | url }}">
+    <link rel="manifest" href="{{ '/manifest.json' | url }}">
 
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f2f2f2" media="(prefers-color-scheme: light)">
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="{{ '/styles.css' | url }}">
   </head>
   <body>
     {% block header %}
@@ -40,11 +40,11 @@
     <!-- page-specific scripts, should be set within the page template -->
     {% block scripts %}{% endblock %}
 
-    <script src="/scripts.js"></script>
+    <script src="{{ '/scripts.js' | url }}"></script>
     <script type="module">
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js');
+          navigator.serviceWorker.register('{{ "/service-worker.js" | url }}');
         });
       }
     </script>
