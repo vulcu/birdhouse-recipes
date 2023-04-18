@@ -1,0 +1,44 @@
+.recipe {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-bottom: 1rem;
+
+  &__main {
+
+  }
+
+  &__sidebar {
+    padding: 1rem;
+    background-color: var(--color-bg);
+  }
+
+  &__columns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  &__left {
+  }
+
+  &__right {
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .recipe {
+    grid-template-columns: 5fr 2fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .recipe {
+    &__columns {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

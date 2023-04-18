@@ -1,11 +1,40 @@
-.time {
-  &__header {
-    margin-bottom: 0.25rem;
-  }
+.recipe-time {
+  width: 100%;
+  margin-bottom: 1rem;
 
   &__list {
+    padding-left: 1rem;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin: 1rem 1rem 1rem 2.5rem;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: -0.25rem;
+      left: -2.5rem;
+      content: "🕑";
+      font-size: 1rem;
+      padding: 0.25rem;
+      text-align: center;
+      box-sizing: border-box;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 1rem;
+      background-color: var(--color-muted);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .recipe-time {
+    &__list {
+      padding-left: 0;
+    }
   }
 }

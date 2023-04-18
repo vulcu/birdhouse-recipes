@@ -1,0 +1,32 @@
+.recipe-top {
+  background-color: var(--color-bg);
+  margin-bottom: 1rem;
+
+  &__header {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  &__image {
+    max-height: 60vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .recipe-top {
+    &__image {
+      max-height: 45vw;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .recipe-top {
+    &__image {
+      max-height: 30rem;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="recipe-top">
+  {% if r.images %}
+    {% set feat = r.images | first %}
+    {% if feat %}
+      <div class="recipe-top__image">
+        {% image [ "data/recipes/", category, "/images/", feat.filename ] | join, feat.alt %}
+      </div>
+    {% endif %}
+  {% endif %}
+  <h2 class="recipe-top__header">{{ r.title if r.title else "undefined" }}</h2>
+  {% include 'recipes/yields.njk' %}
+</div>

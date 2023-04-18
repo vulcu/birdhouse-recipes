@@ -4,7 +4,7 @@ pagination:
   size: 1
   alias: recipe
 permalink: "recipes/cocktails/{{ recipe }}/"
-layout: layout-recipe.njk
+layout: default
 eleventyComputed:
   title: "{{ recipes.cocktails[recipe].title }}"
 ---
@@ -13,7 +13,7 @@ eleventyComputed:
 
 <h2>{{ r.title if r.title else "undefined" }}</h2>
 
-{% include 'recipes/ingredients.njk' %}
-{% include 'recipes/steps.njk' %}
-{% include 'recipes/notes.njk' %}
-{% include 'recipes/image-gallery.njk' %}
+{% extends 'recipe.njk' %}
+{% block sidebar %}
+
+{% endblock %}

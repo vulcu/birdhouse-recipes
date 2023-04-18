@@ -1,9 +1,21 @@
 .notes {
+  padding: 1rem;
+  background-color: var(--color-bg);
+
   &__header {
-    margin-bottom: 0.25rem;
+    margin: 0 0 0.5rem;
   }
 
   &__list {
     margin-top: 0;
+    padding-left: 1rem;
   }
+
+  &__item {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.ingredients + .notes {
+  margin-top: 1rem;
 }

@@ -1,11 +1,13 @@
-{% if r.images %}
+{% if r.images and r.images | length > 1 %}
   <div class="image-gallery">
     <h3 class="image-gallery__header">Images</h3>
     <div class="image-gallery__gallery">
       {%- for img in r.images -%}
-        <div class="image-gallery__image">
-          {% image [ "data/recipes/", category, "/images/", img.filename ] | join, img.alt %}
-        </div>
+        {% if not loop.first %}
+          <div class="image-gallery__image">
+            {% image [ "data/recipes/", category, "/images/", img.filename ] | join, img.alt %}
+          </div>
+        {% endif %}
       {%- endfor -%}
     </div>
   </div>

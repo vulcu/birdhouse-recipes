@@ -1,0 +1,21 @@
+<div class="recipe">
+  <div class="recipe__main">
+    {% include 'recipes/top.njk' %}
+    {% include 'recipes/time.njk' %}
+
+    <div class="recipe__columns">
+      <div class="recipe__left">
+        {% include 'recipes/ingredients.njk' %}
+        {% include 'recipes/notes.njk' %}
+      </div>
+      <div class="recipe__right">
+        {% include 'recipes/steps.njk' %}
+      </div>
+    </div>
+
+    {% include 'recipes/image-gallery.njk' %}
+  </div>
+  <div class="recipe__sidebar">
+    {% block sidebar %}{% endblock %}
+  </div>
+</div>
