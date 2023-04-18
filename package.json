@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/vulcu/birdhouse-recipes/issues"
   },
-  "homepage": "https://github.com/vulcu/birdhouse-recipes#readme",
+  "homepage": "https://vulcu.github.io/birdhouse-recipes/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",
