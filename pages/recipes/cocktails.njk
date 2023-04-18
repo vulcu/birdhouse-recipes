@@ -8,6 +8,6 @@ layout: default
 
 <ul>
   {% for slug, recipe in recipes.cocktails -%}
-    <li><a href="/recipes/cocktails/{{ slug }}/">{{ recipe.title }}</a></li>
+    <li><a href="{{ ['/recipes/cocktails/', slug] | join | url }}">{{ recipe.title }}</a></li>
   {%- endfor %}
 </ul>
