@@ -1,10 +1,9 @@
 ---
 title: Dinner
 permalink: "recipes/dinner/"
-layout: default
 ---
 {% set recipeList = recipes.dinner %}
 {% set category = "dinner" %}
 
-{% extends 'category-index.njk' %}
+{% extends 'page-layouts/category-index.njk' %}
 {% block header %}Dinner{% endblock %}

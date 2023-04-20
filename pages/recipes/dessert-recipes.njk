@@ -4,14 +4,13 @@ pagination:
   size: 1
   alias: recipe
 permalink: "recipes/desserts/{{ recipe }}/"
-layout: default
 eleventyComputed:
   title: "{{ recipes.desserts[recipe].title }}"
 ---
 {% set r = recipes.desserts[recipe] %}
 {% set category = "desserts" %}
 
-{% extends 'recipe.njk' %}
+{% extends 'page-layouts/recipe.njk' %}
 {% block sidebar %}
 
 {% endblock %}
