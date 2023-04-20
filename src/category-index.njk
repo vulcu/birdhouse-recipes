@@ -1,0 +1,11 @@
+<div class="category-index">
+  <h2 class="category-index__header">{% block header %}{% endblock %}</h2>
+
+  <ul class="category-index__recipe-list">
+    {% for slug, recipe in recipeList -%}
+      <li class="category-index__recipe-list-item">
+        <a href="{{ ['/recipes/', category ,'/', slug] | join | url }}">{{ recipe.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
+</div>

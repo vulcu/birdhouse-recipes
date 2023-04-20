@@ -3,11 +3,8 @@ title: Cocktails
 permalink: "recipes/cocktails/"
 layout: default
 ---
+{% set recipeList = recipes.cocktails %}
+{% set category = "cocktails" %}
 
-<h2>Cocktails</h2>
-
-<ul>
-  {% for slug, recipe in recipes.cocktails -%}
-    <li><a href="{{ ['/recipes/cocktails/', slug] | join | url }}">{{ recipe.title }}</a></li>
-  {%- endfor %}
-</ul>
+{% extends 'category-index.njk' %}
+{% block header %}Cocktails{% endblock %}
