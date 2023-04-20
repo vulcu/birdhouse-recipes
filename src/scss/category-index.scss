@@ -1,16 +1,7 @@
 .category-index {
-  background-color: var(--color-bg);
-  padding: 1rem;
-
   &__header {
     margin-top: 0;
-  }
-
-  &__recipe-list {
-    padding-left: 1rem;
-  }
-
-  &__recipe-list-item {
-    line-height: 150%;
+    text-align: center;
+    font-size: 2rem;
   }
 }

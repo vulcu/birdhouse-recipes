@@ -1,10 +1,22 @@
 <div class="category-index">
   <h2 class="category-index__header">{% block header %}{% endblock %}</h2>
 
-  <ul class="category-index__recipe-list">
+  <ul class="recipe-list">
     {% for slug, recipe in recipeList -%}
-      <li class="category-index__recipe-list-item">
-        <a href="{{ ['/recipes/', category ,'/', slug] | join | url }}">{{ recipe.title }}</a>
+      <li class="recipe-list__item">
+        <a class="recipe-list__link" href="{{ ['/recipes/', category ,'/', slug] | join | url }}">
+          <div class="recipe-list__image">
+            {% if recipe.images %}
+              {% set feat = recipe.images | first %}
+              {% if feat %}
+                {% image [ "data/recipes/", category, "/images/", feat.filename ] | join, feat.alt %}
+              {% endif %}
+            {% endif %}
+          </div>
+          <div class="recipe-list__title">
+            {{ recipe.title }}
+          </div>
+        </a>
       </li>
     {%- endfor %}
   </ul>
