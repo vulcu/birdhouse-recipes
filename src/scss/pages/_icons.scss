@@ -1,0 +1,45 @@
+.icons-header {
+  text-align: center;
+  margin: 0;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  &__icon {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+
+    .icon {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+
+  &__name {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .icons {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

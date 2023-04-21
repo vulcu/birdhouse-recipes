@@ -1,0 +1,16 @@
+---
+title: Icons Preview
+permalink: "/icons/"
+layout: default
+---
+
+<h2 class="icons-header">Icons</h2>
+
+<div class="icons">
+  {%- for i in icons %}
+    <div class="icons__icon">
+      {% icon i %}
+      <div class="icons__name">{{ i }}</div>
+    </div>
+  {%- endfor %}
+</div>

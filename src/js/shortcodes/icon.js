@@ -13,5 +13,5 @@ const path = require('path');
 module.exports = async function (icon, alt = '') {
   const file = path.resolve('src/icons', icon + '.svg');
   const svg = fs.readFileSync(file, 'utf8');
-  return alt ? `<div aria-label="${alt}">${svg}</div>` : `<div>${svg}</div>`;
+  return alt ? `<div class="icon" aria-label="${alt}">${svg}</div>` : `<div class="icon">${svg}</div>`;
 };
