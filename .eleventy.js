@@ -1,5 +1,5 @@
 const yaml = require('js-yaml');
-const responsiveImage = require('./src/js/filters/responsive-images.js');
+const responsiveImage = require('./src/js/shortcodes/responsive-images.js');
 const parseMiniMd = require('./src/js/filters/parse-mini-markdown.js');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
