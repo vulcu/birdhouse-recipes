@@ -3,6 +3,9 @@ tags:
   - tag-1
   - tag-2
 
+# See https://localhost:8080/icons/ for list
+icon: carrot
+
 # Required: filename, alt
 # Optional: photographer, source, license
 # photographer and source urls are optional
