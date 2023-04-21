@@ -1,0 +1,20 @@
+title: Chocolate Martini
+
+tags:
+
+ingredients:
+  -
+    qty: 1 1/2 oz
+    item: Vodka
+  -
+    qty: 1 1/2 oz
+    item: Baileys
+  -
+    qty: 1 1/2 oz
+    item: Crème de cacao
+  -
+    item: Chocolate shavings
+
+steps:
+  - Shake, serve straight up.
+  - Garnish with chocolate shavings.
