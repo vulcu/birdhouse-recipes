@@ -3,6 +3,7 @@ html {
   color: var(--color-text);
 }
 
+/* stylelint-disable no-descending-specificity */
 a {
   color: var(--color-link);
   position: relative;
@@ -44,7 +45,7 @@ header {
     h1 {
       display: inline-block;
       font-size: 1.5rem;
-      margin: 0 1rem 0 1rem;
+      margin: 0 1rem;
       padding: 0;
 
       a {
@@ -82,6 +83,7 @@ header {
     padding: 0 0.5rem;
   }
 }
+/* stylelint-enable no-descending-specificity */
 
 #main-content {
   margin: 0 auto;
