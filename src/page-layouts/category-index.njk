@@ -1,6 +1,21 @@
 <div class="category-index">
   <h2 class="category-index__header">{% block header %}{% endblock %}</h2>
 
+  <div class="recipe-view">
+    <button id="recipe-view-toggle" class="recipe-view__button">
+      <div class="recipe-view__option">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M4 4 11 4 11 11 4 11 4 4M13 4 20 4 20 11 13 11 13 4M4 13 11 13 11 20 4 20 4 13M13 13 20 13 20 20 13 20 13 13z"></path>
+        </svg>
+      </div>
+      <div class="recipe-view__option">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M4 4 19 4 19 7 4 7 4 4M4 10 19 10 19 13 4 13 4 10M4 16 19 16 19 19 4 19 4 16z"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+
   <ul class="recipe-list">
     {% for slug, recipe in recipeList -%}
       <li class="recipe-list__item">

@@ -8,6 +8,8 @@ a {
   color: var(--color-link);
   position: relative;
   text-decoration: none;
+  outline-color: transparent;
+  transition: outline-color 0.4s;
 
   &::after {
     content: '';
@@ -19,13 +21,13 @@ a {
     transition: 0.4s;
   }
 
-  &:focus-within {
+  &:focus-visible {
     outline: 1px solid var(--color-link);
     outline-offset: -1px;
   }
 
   &:hover,
-  &:focus-within {
+  &:focus-visible {
     &::after {
       width: 100%;
     }
@@ -41,11 +43,12 @@ header {
 
   nav {
     display: flex;
+    flex-wrap: wrap;
 
     h1 {
       display: inline-block;
       font-size: 1.5rem;
-      margin: 0 1rem;
+      margin: 0.5rem 1rem;
       padding: 0;
 
       a {
@@ -55,7 +58,7 @@ header {
     }
 
     menu {
-      margin: 0;
+      margin: 0.5rem 0;
       padding: 0;
 
       ul {
