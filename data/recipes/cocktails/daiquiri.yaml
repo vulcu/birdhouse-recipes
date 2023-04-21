@@ -1,0 +1,19 @@
+title: Daiquiri
+tags:
+
+ingredients:
+  -
+    qty: 1 1/2 oz
+    item: Light rum
+  -
+    qty: 1 oz
+    item: Lime juice
+  -
+    qty: 1/2 oz
+    item: Simple syrup
+  -
+    item: Lime slice
+
+steps:
+  - Shake, serve straight up.
+  - Garnish.
