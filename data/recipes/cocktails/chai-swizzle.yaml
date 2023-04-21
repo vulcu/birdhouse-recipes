@@ -1,0 +1,23 @@
+title: Chai Swizzle
+
+tags:
+  - hot-cocktails
+
+ingredients:
+  -
+    qty: 2 oz
+    item: Baileys
+  -
+    qty: 4-6 oz
+    item: Masala chai
+  -
+    qty: 2 tsp
+    item: Sugar
+  -
+    item: Cinnamon stick
+
+steps:
+  - Brew tea.
+  - Add sugar, stir.
+  - Add Baileys, stir.
+  - Garnish with cinnamon stick.
