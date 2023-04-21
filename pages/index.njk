@@ -4,46 +4,33 @@ description: Food and drink for birds and furies.
 layout: default
 ---
 
-<p>
-  This project is an attempt to first catalog and organize recipes in
-  a format that is easy to contribute to and easy to move elsewhere.
-</p>
+<div class="home">
+  <div class="home__info">
+    <p>
+      This project is an attempt to first catalog and organize recipes in
+      a format that is easy to contribute to and easy to move elsewhere.
+    </p>
 
-<p>
-  After organizing a volume of recipes, plans include searching for
-  recipes based on ingredients on hand.
-</p>
+    <p>
+      After organizing a volume of recipes, plans include searching for
+      recipes based on ingredients on hand.
+    </p>
+  </div>
 
-<h2>Recipes</h2>
+  <h2 class="home__header">Recipes</h2>
 
-<h3><a href="/recipes/breakfast/">Breakfast</a></h3>
-
-<ul>
-  {%- for slug, recipe in recipes.breakfast -%}
-    <li><a href="{{ ['/recipes/breakfast/', slug] | join | url }}">{{ recipe.title }}</a></li>
-  {%- endfor -%}
-</ul>
-
-<h3><a href="/recipes/dinner/">Dinner</a></h3>
-
-<ul>
-  {%- for slug, recipe in recipes.dinner -%}
-    <li><a href="{{ ['/recipes/dinner/', slug] | join | url }}">{{ recipe.title }}</a></li>
-  {%- endfor -%}
-</ul>
-
-<h3><a href="/recipes/desserts/">Desserts</a></h3>
-
-<ul>
-  {%- for slug, recipe in recipes.desserts -%}
-    <li><a href="{{ ['/recipes/desserts/', slug] | join | url }}">{{ recipe.title }}</a></li>
-  {%- endfor -%}
-</ul>
-
-<h3><a href="/recipes/cocktails/">Cocktails</a></h3>
-
-<ul>
-  {%- for slug, recipe in recipes.cocktails -%}
-    <li><a href="{{ ['/recipes/cocktails/', slug] | join | url }}">{{ recipe.title }}</a></li>
-  {%- endfor -%}
-</ul>
+  <ul class="home__categories">
+    <li class="home__category">
+      <a href="{{ '/recipes/breakfast/' | url }}">Breakfast</a>
+    </li>
+    <li class="home__category">
+      <a href="{{ '/recipes/dinner/' | url }}">Dinner</a>
+    </li>
+    <li class="home__category">
+      <a href="{{ '/recipes/desserts/' | url }}">Desserts</a>
+    </li>
+    <li class="home__category">
+      <a href="{{ '/recipes/cocktails/' | url }}">Cocktails</a>
+    </li>
+  </ul>
+</div>
