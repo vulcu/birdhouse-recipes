@@ -20,6 +20,7 @@ a {
 
   &:focus-within {
     outline: 1px solid var(--color-link);
+    outline-offset: -1px;
   }
 
   &:hover,
@@ -55,15 +56,21 @@ header {
     menu {
       margin: 0;
       padding: 0;
-      display: flex;
 
-      a {
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        text-decoration: none;
-        background-color: var(--color-bg);
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
 
-        &.selected {
+        a {
+          display: inline-block;
+          padding: 0.5rem 1rem;
+          text-decoration: none;
+          background-color: var(--color-bg);
+        }
+
+        li.selected a {
           color: var(--color-text);
           background-color: var(--color-bg-lighter);
         }

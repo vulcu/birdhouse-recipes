@@ -1,28 +1,14 @@
-{% set menu = [
-  {
-    url: '/recipes/breakfast/' | url,
-    name: 'Breakfast'
-  },
-  {
-    url: '/recipes/dinner/' | url,
-    name: 'Dinner'
-  },
-  {
-    url: '/recipes/desserts/' | url,
-    name: 'Desserts'
-  },
-  {
-    url: '/recipes/cocktails/' | url,
-    name: 'Cocktails'
-  }
-] %}
 <header>
   <nav>
     <h1 id="logo"><a href="{{ '/' | url }}">{{ global.siteName }}</a></h1>
     <menu>
-      {% for item in menu %}
-        <a class="{{ 'selected' if page.url == item.url }}" href="{{ item.url }}">{{ item.name }}</a>
-      {% endfor %}
+      {% set opts = {
+        listItemClass: 'li',
+        activeListItemClass: 'selected',
+        activeAnchorClass: 'selected',
+        activeKey: eleventyNavigation.key
+      } %}
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml(opts) | safe }}
     </menu>
   </nav>
   <div class="settings">
