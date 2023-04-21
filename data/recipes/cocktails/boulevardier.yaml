@@ -15,6 +15,7 @@ ingredients:
     item: Sweet vermouth
   -
     item: Orange twist
+    optional: true
 
 steps:
   - Stir all over rocks.
