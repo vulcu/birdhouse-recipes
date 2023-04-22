@@ -5,6 +5,8 @@ tags:
 images:
   - filename: belgian-waffles-1.jpg
     alt: A belgian waffle.
+    photographer:
+      name: Winry R. Litwa-Vulcu
 
 yields: 6 waffles
 

@@ -3,11 +3,26 @@ tags:
   - tag-1
   - tag-2
 
+# Required: filename, alt
+# Optional: photographer, source, license
+# photographer and source urls are optional
+# For license ids, see https://spdx.org/licenses/
 images:
   - filename: image.jpg
     alt: Alt description of image.
+    photographer:
+      name: Fname Lname
+      url: http://example.com/
+    license: CC0-1.0
+
   - filename: image2.jpg
     alt: Alt description of second image.
+    source:
+      name: Wikimedia Commons
+      url: http://example.com/
+
+  - filename: image3.jpg
+    alt: Alt description of third image.
 
 yields: 10 somethings
 

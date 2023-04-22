@@ -1,6 +1,8 @@
 const yaml = require('js-yaml');
 const responsiveImage = require('./src/js/shortcodes/responsive-images.js');
 const parseMiniMd = require('./src/js/filters/parse-mini-markdown.js');
+const license = require('./src/js/shortcodes/license.js');
+const photoAttribution = require('./src/js/shortcodes/photo-attribution.js');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
@@ -10,6 +12,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addFilter('md', parseMiniMd);
   eleventyConfig.addShortcode('image', responsiveImage);
+  eleventyConfig.addShortcode('license', license);
+  eleventyConfig.addShortcode('photoAttribution', photoAttribution);
 
   return {
     dir: {

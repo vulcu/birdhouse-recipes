@@ -5,6 +5,8 @@ tags:
 images:
   - filename: pancakes-1.jpg
     alt: Pancakes.
+    photographer:
+      name: Winry R. Litwa-Vulcu
 
 yields: 6-8 pancakes
 

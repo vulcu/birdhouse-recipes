@@ -5,6 +5,12 @@
       <div class="recipe-top__image">
         {% image [ "data/recipes/", category, "/images/", feat.filename ] | join, feat.alt %}
       </div>
+      {% if feat.photographer or feat.source or feat.license %}
+        <div class="recipe-top__meta">
+          {% photoAttribution feat.photographer, feat.source %}
+          {% license feat.license %}
+        </div>
+      {% endif %}
     {% endif %}
   {% endif %}
   <h2 class="recipe-top__header">{{ r.title if r.title else "undefined" }}</h2>
