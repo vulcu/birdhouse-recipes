@@ -1,0 +1,24 @@
+title: Imperial
+tags:
+
+icon: martini
+
+ingredients:
+  -
+    qty: 2 oz
+    item: Gin
+  -
+    qty: 1 oz
+    item: Dry vermouth
+  -
+    qty: 1/4 oz
+    item: Maraschino liqueur
+  -
+    qty: 2 dashes
+    item: Aromatic bitters
+  -
+    item: Lemon twist
+
+steps:
+  - Shake, serve straight up.
+  - Garnish.
