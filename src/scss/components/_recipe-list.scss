@@ -15,7 +15,7 @@
     &[data-view="grid"] {
       .recipe-view__option:first-child {
         opacity: 1;
-        background-color: var(--color-bg-lightest);
+        background-color: var(--color-bg-3);
   
         svg path {
           fill: var(--color-text);
@@ -26,7 +26,7 @@
     &[data-view="list"] {
       .recipe-view__option:last-child {
         opacity: 1;
-        background-color: var(--color-bg-lightest);
+        background-color: var(--color-bg-3);
   
         svg path {
           fill: var(--color-text);
@@ -58,7 +58,7 @@
     width: 2rem;
     height: 2rem;
     display: block;
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-1);
     position: relative;
 
     &::after {
@@ -104,7 +104,7 @@
 
   &__item {
     line-height: 150%;
-    background-color: var(--color-bg-lighter);
+    background-color: var(--color-bg-2);
     aspect-ratio: 4/3;
     display: flex;
     justify-content: space-between;
@@ -123,7 +123,7 @@
   }
 
   &__image {
-    background-color: var(--color-bg-lightest);
+    background-color: var(--color-bg-3);
     height: 80%;
     overflow: hidden;
     display: flex;

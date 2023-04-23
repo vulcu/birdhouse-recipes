@@ -2,8 +2,9 @@
 
 // ------------------ VARIABLES ------------------
 
+$c-white: #fff;
 $c-dark-grey: #2a2a2f;
-$c-light-grey: #e0e0e5;
+$c-light-grey: #e5e5ea;
 $c-medium-grey: #808085;
 $c-dark-pink: #c00044;
 $c-light-pink: #f7a;
@@ -12,24 +13,26 @@ $c-light-pink: #f7a;
 
 @mixin light-mode {
   --theme-name: "Light Mode";
-  --color-bg: #{$c-light-grey};
-  --color-bg-darker: #{color.adjust($c-light-grey, $lightness: -8%)};
-  --color-bg-lighter: #{color.adjust($c-light-grey, $lightness: 5%)};
-  --color-bg-lightest: #{color.adjust($c-light-grey, $lightness: 10%)};
+  --color-bg-0: #{$c-white};
+  --color-bg-1: #{color.adjust($c-light-grey, $lightness: 5%)};
+  --color-bg-2: #{$c-light-grey};
+  --color-bg-3: #{color.adjust($c-light-grey, $lightness: -6%)};
   --color-text: #{$c-dark-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-dark-pink};
+  --color-selection: #{$c-dark-pink};
 }
 
 @mixin dark-mode {
   --theme-name: "Dark Mode";
-  --color-bg: #{$c-dark-grey};
-  --color-bg-darker: #{color.adjust($c-dark-grey, $lightness: -8%)};
-  --color-bg-lighter: #{color.adjust($c-dark-grey, $lightness: 5%)};
-  --color-bg-lightest: #{color.adjust($c-dark-grey, $lightness: 10%)};
+  --color-bg-0: #{color.adjust($c-dark-grey, $lightness: -8%)};
+  --color-bg-1: #{$c-dark-grey};
+  --color-bg-2: #{color.adjust($c-dark-grey, $lightness: 5%)};
+  --color-bg-3: #{color.adjust($c-dark-grey, $lightness: 10%)};
   --color-text: #{$c-light-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-light-pink};
+  --color-selection: #{$c-light-pink};
 }
 
 // -------------- QUERIES FOR ROOT ---------------
@@ -49,8 +52,12 @@ $c-light-pink: #f7a;
   :root {
     @include light-mode;
 
-    --color-bg: #fff;
+    --color-bg-0: #fff;
+    --color-bg-1: #fff;
+    --color-bg-2: #fff;
+    --color-bg-3: #fff;
     --color-text: #000;
+    --color-link: #704;
   }
 }
 
@@ -123,7 +130,7 @@ $c-light-pink: #f7a;
       position: relative;
       width: 1.5rem;
       height: 1.5rem;
-      background-color: var(--color-bg);
+      background-color: var(--color-bg-0);
       border-radius: 5rem;
       transition: .3s;
     }

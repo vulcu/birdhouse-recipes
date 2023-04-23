@@ -1,5 +1,5 @@
 html {
-  background-color: var(--color-bg-darker);
+  background-color: var(--color-bg-0);
   color: var(--color-text);
 }
 
@@ -71,12 +71,12 @@ header {
           display: inline-block;
           padding: 0.5rem 1rem;
           text-decoration: none;
-          background-color: var(--color-bg);
+          background-color: var(--color-bg-1);
         }
 
         li.selected a {
           color: var(--color-text);
-          background-color: var(--color-bg-lighter);
+          background-color: var(--color-bg-2);
         }
       }
     }

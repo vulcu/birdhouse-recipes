@@ -1,5 +1,5 @@
 .recipe-top {
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-1);
   margin-bottom: 1rem;
 
   &__header {
@@ -16,7 +16,7 @@
 
   &__meta {
     color: var(--color-muted);
-    background-color: var(--color-bg-lighter);
+    background-color: var(--color-bg-2);
     padding: 0.2rem 0.4rem;
     text-align: right;
     font-size: 0.8rem;
