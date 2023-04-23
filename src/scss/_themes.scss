@@ -7,6 +7,7 @@ $c-dark-grey: #2a2a2f;
 $c-light-grey: #e5e5ea;
 $c-medium-grey: #808085;
 $c-dark-pink: #c00044;
+$c-dark-pink-2: #932b50;
 $c-light-pink: #f7a;
 
 // ------------------- THEMES --------------------
@@ -20,7 +21,7 @@ $c-light-pink: #f7a;
   --color-text: #{$c-dark-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-dark-pink};
-  --color-selection: #{$c-dark-pink};
+  --color-selection: #{$c-light-pink};
 }
 
 @mixin dark-mode {
@@ -32,7 +33,7 @@ $c-light-pink: #f7a;
   --color-text: #{$c-light-grey};
   --color-muted: #{$c-medium-grey};
   --color-link: #{$c-light-pink};
-  --color-selection: #{$c-light-pink};
+  --color-selection: #{$c-dark-pink-2};
 }
 
 // -------------- QUERIES FOR ROOT ---------------
