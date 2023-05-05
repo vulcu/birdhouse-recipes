@@ -1,0 +1,24 @@
+title: Martinez
+tags:
+
+icon: martini
+
+ingredients:
+  -
+    qty: 2 oz
+    item: Bourbon, Rye whiskey, or Canadian whiskey
+  -
+    qty: 3/4 oz
+    item: Sweet vermouth
+  -
+    qty: 1/4 oz
+    item: Maraschino liqueur
+  -
+    qty: 1 oz
+    item: Orange liqueur
+  -
+    item: Lemon twist
+
+steps:
+	- Shake, serve straight up. 
+  - Garnish.
