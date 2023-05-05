@@ -1,0 +1,24 @@
+title: Tequila Sunrise
+tags:
+
+icon: rocks
+
+ingredients:
+  -
+    qty: 2 oz
+    item: Tequila
+  -
+    qty: 4 oz
+    item: Orange juice
+  -
+    qty: 1/2 oz
+    item: Grenadine
+  -
+    item: Orange slice
+  -
+    item: Maraschino cherry
+
+steps:
+  - Stir tequila and orange juice over rocks.
+  - Float grenadine.
+  - Garnish.
