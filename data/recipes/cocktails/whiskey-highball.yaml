@@ -1,0 +1,15 @@
+title: Whiskey Highball
+tags:
+
+icon: highball
+
+ingredients:
+  -
+    qty: 2 oz
+    item: Whiskey
+  -
+    qty: 4 oz
+    item: Ginger ale
+
+steps:
+  - Stir, serve on the rocks.
