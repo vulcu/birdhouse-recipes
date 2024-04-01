@@ -10,7 +10,7 @@ jobs:
       - name: Check Commit Type
         uses: gsactions/commit-message-checker@v1
         with:
-          pattern: '^(feat|fix|docs|style|refactor|test|chore)(\([A-Za-z\-]+\))?:.+'
+          pattern: '^(feat|fix|docs|style|refactor|test|chore|recipe)(\([A-Za-z\-]+\))?:.+'
           error: 'Commit messages must begin with a valid commit type, with optional scope.'
           excludeDescription: 'true'
           excludeTitle: 'true'
