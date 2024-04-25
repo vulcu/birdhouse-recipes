@@ -1,3 +1,4 @@
+/* global process, module */
 module.exports = {
   siteName: 'Birdhouse Recipes',
   baseUrl:

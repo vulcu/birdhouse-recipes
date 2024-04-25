@@ -14,7 +14,7 @@ module.exports = async function (license) {
     let url = licenses + license + '.html';
     return `<div class="license"><a href="${url}" target="_blank">${data.name}</a></div>`;
   }
-  catch (e) {
+  catch (_e) {
     console.error('License not found:', license);
     console.error('See', licenses, 'for list.')
     return `<div class="license">${license}</div>`;

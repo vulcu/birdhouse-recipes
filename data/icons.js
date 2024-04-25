@@ -1,3 +1,4 @@
+/* global require, module */
 const fs = require('fs');
 
 let icons = [];
