@@ -16,7 +16,7 @@
   "no-hard-tabs": true,
   "no-reversed-links": true,
   "ol-prefix": { "style": "one_or_ordered" },
-  "ul-indent": { "indent": 2 },
+  "ul-indent": { "indent": 4 },
   "ul-style": { "style": "consistent" },
   "whitespace": false,
   "single-trailing-newline": true
