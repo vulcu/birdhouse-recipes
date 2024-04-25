@@ -69,7 +69,7 @@ $c-light-pink: #f7a;
 }
 
 @media (prefers-color-scheme: dark) {
-  :not([data-theme="light"]) {
+  html:not([data-theme="light"]) {
     @include dark-mode;
   }
 }
